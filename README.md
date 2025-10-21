@@ -1,7 +1,5 @@
 # LingML
 
-This is the official code repository for the paper **LingML: Linguistic-Informed Machine Learning for Enhanced Fake News Detection**.
-
 ## Directory Structure
 
 - **config** - configuration files for different datasets and LLM models
@@ -93,17 +91,3 @@ python3 -B main.py \
     DEVICE_INDEX None
 ```
 
-## Citation
-
-If you use this work, kindly cite it as
-```
-@misc{singh2024lingmllinguisticinformedmachinelearning,
-      title={LingML: Linguistic-Informed Machine Learning for Enhanced Fake News Detection}, 
-      author={Jasraj Singh and Fang Liu and Hong Xu and Bee Chin Ng and Wei Zhang},
-      year={2024},
-      eprint={2405.04165},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2405.04165}, 
-}
-```
